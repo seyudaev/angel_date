@@ -284,6 +284,16 @@ button {
     gap: 10px;
   }
 
+  .tease-text {
+    display: inline-block;
+    max-width: 260px;
+    padding-inline: 16px;
+    border-radius: 999px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
   #music-toggle {
     right: 14px;
     bottom: 14px;
