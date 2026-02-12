@@ -32,7 +32,7 @@ const noMessages = [
 
 // Реплики после нажатия «Да»
 const yesTeasePokes = [
-  'Что-то ты быстро согласилась, попробуй сначала нажать на «Нет» :)',
+  'Что-то ты быстро согласилась, попробуй нажать на «Нет» :)',
   'Давай, кликни «Нет» ещё разок',
   'Кликни ещё на «Нет»',
 ]
@@ -42,7 +42,7 @@ let noClickCount = 0
 let runawayEnabled = false
 let musicPlaying = false
 
-const catGif = document.getElementById('cat-gif')
+const dogGif = document.getElementById('dog-gif')
 const yesBtn = document.getElementById('yes-btn')
 const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
@@ -144,11 +144,11 @@ function handleNoClick() {
 }
 
 function swapGif(src) {
-  if (!catGif) return
-  catGif.classList.add('fade-out')
+  if (!dogGif) return
+  dogGif.classList.add('fade-out')
   setTimeout(() => {
-    catGif.src = src
-    catGif.classList.remove('fade-out')
+    dogGif.src = src
+    dogGif.classList.remove('fade-out')
   }, 200)
 }
 
