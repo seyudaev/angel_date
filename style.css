@@ -272,8 +272,12 @@ button {
   #yes-btn,
   #no-btn {
     width: 100%;
+    max-width: 260px;
     justify-content: center;
     display: inline-flex;
+    margin: 0 auto;
+    text-align: center;
+    white-space: normal;
   }
 
   .buttons {
