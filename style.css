@@ -269,15 +269,22 @@ button {
     font-size: 0.9rem;
   }
 
-  #yes-btn,
-  #no-btn {
+  #yes-btn {
     width: 100%;
-    max-width: 260px;
+    justify-content: center;
+    display: inline-flex;
+    margin: 0 auto;
+  }
+
+  #no-btn {
+    width: auto;
+    max-width: 220px;
     justify-content: center;
     display: inline-flex;
     margin: 0 auto;
     text-align: center;
     white-space: normal;
+    padding-inline: 18px;
   }
 
   .buttons {
