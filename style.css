@@ -229,6 +229,14 @@ button {
 }
 
 @media (max-width: 480px) {
+  body {
+    align-items: flex-start;
+  }
+
+  .container {
+    padding: 18px 16px;
+  }
+
   .card {
     padding: 26px 20px 24px;
     border-radius: 20px;
@@ -243,6 +251,24 @@ button {
     height: 170px;
   }
 
+  .yes-card {
+    padding: 28px 20px 24px;
+    border-radius: 20px;
+  }
+
+  .yes-title {
+    font-size: 1.7rem;
+  }
+
+  .yes-gif {
+    width: 190px;
+    height: 190px;
+  }
+
+  .yes-note {
+    font-size: 0.9rem;
+  }
+
   #yes-btn,
   #no-btn {
     width: 100%;
@@ -252,6 +278,24 @@ button {
 
   .buttons {
     gap: 10px;
+  }
+
+  #music-toggle {
+    right: 14px;
+    bottom: 14px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .question {
+    font-size: 1.25rem;
+  }
+
+  .yes-title {
+    font-size: 1.5rem;
   }
 }
 
