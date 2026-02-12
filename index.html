@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ангел, пойдёшь на свидание?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="noise-bg"></div>
+
+    <div class="container">
+      <div class="card">
+        <p class="eyebrow">Питер завтра вечер</p>
+        <h1 class="question">
+          Ангел, пойдёшь завтра вечером на свидание?<br />
+        </h1>
+
+        <div class="gif-container">
+          <img
+            id="cat-gif"
+            src="https://media.tenor.com/6_-osAtLuHUAAAAi/wave-cute.gif"
+            alt="Милая мультяшная собачка"
+          />
+        </div>
+
+        <div class="buttons">
+          <button id="yes-btn" type="button">Да</button>
+          <button id="no-btn" type="button">Нет</button>
+        </div>
+
+        <p id="tease-toast" class="tease-text"></p>
+      </div>
+
+      <!--<footer class="footer">
+        <span>Небо, вино и ты.</span>
+      </footer>-->
+    </div>
+
+    <button id="music-toggle" type="button" onclick="toggleMusic()">🔊</button>
+    <audio
+      id="bg-music"
+      loop
+      src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Kevin_MacLeod/Calming/Kevin_MacLeod_-_Calmant.mp3"
+    ></audio>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+

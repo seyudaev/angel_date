@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Свидание завтра 💌</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="noise-bg"></div>
+
+    <div class="container yes-page">
+      <div class="yes-card">
+        <h1 class="yes-title">Я знал, что ты скажешь «да» ✨</h1>
+        <!--<p class="yes-subtitle">
+          Жду тебя завтра вечером ❤️
+        </p>-->
+
+        <div class="gif-container">
+          <img
+            class="yes-gif"
+            src="https://media1.tenor.com/m/UIEz0-bPCPQAAAAC/excited-love.gif"
+            alt="Влюблённая собачка"
+          />
+        </div>
+
+        <p class="yes-note">
+          Безумно рад буду провести завтрашний вечер с тобой ❤️
+        </p>
+      </div>
+    </div>
+
+    <button id="music-toggle" type="button" onclick="toggleMusic()">🔊</button>
+    <audio
+      id="bg-music"
+      loop
+      src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Kevin_MacLeod/Calming/Kevin_MacLeod_-_Calmant.mp3"
+    ></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="yes-script.js"></script>
+  </body>
+  </html>
+
